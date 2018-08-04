@@ -1,4 +1,11 @@
 # Đăng ký học phần UIT
+## How to build
+Yêu cầu cài đặt:
+- golang
+- make
+Recommend: Linux, macOS
+
+Chạy `make build`
 ## Cách sử dụng
 Ví dụ: `./dkhp-uit -loop -1 -id 15520237 -pass "..;:?<>~%^&*()-_=+;[]" SE101.J11 SE221.J11.1 SE350.J11`
 
