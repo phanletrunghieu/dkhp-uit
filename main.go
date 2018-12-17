@@ -43,7 +43,7 @@ func main() {
 		}
 		form_token, err := util.GetFormToken(data)
 		if err != nil {
-			fmt.Println("Login fail")
+			fmt.Println("It's not time")
 			continue
 		}
 
